@@ -1,0 +1,20 @@
+Package: adwaita-icon-theme
+Version: 46.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 12051
+Depends: gtk-update-icon-cache, hicolor-icon-theme, ubuntu-mono
+Recommends: librsvg2-common
+Breaks: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~), libmutter-12-0 (<< 44.8-3~), libmutter-13-0 (<< 45.3-3~)
+Replaces: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~)
+Provides: adwaita-icon-theme-full (= 46.0-1), gnome-icon-theme-symbolic
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Description: default icon theme of GNOME
+ This package contains the default icon theme used by the GNOME desktop.
+ The icons are used in core apps like Settings, Files, and GNOME Shell.
+ .
+ Other apps are recommended to include their own icons using the GNOME
+ Design Team's Icon Development Kit.
