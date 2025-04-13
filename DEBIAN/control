@@ -1,10 +1,10 @@
 Package: adwaita-icon-theme
-Version: 46.0-1
+Version: 46.0-1+feren0
 Architecture: all
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Feren OS Team <ferenosdev@outlook.com>
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 12051
-Depends: gtk-update-icon-cache, hicolor-icon-theme, ubuntu-mono
+Depends: gtk-update-icon-cache, hicolor-icon-theme, adwaita-icon-theme-legacy
 Recommends: librsvg2-common
 Breaks: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~), libmutter-12-0 (<< 44.8-3~), libmutter-13-0 (<< 45.3-3~)
 Replaces: adwaita-icon-theme-full (<< 45.1), gnome-themes-standard-data (<< 3.18.0-2~)
